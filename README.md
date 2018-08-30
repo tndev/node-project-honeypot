@@ -7,7 +7,7 @@ This npm module will allow you to query and consume the Project Honeypot API. Qu
 
 ## Installation
 
-    npm install @tn-dev/project-honeypot
+    npm install @tndev/project-honeypot
 
 ## Usage
 
