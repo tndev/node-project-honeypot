@@ -1,5 +1,8 @@
 # Project Honeypot
 
+[![Build Status](https://travis-ci.org/tndev/node-project-honeypot.svg?branch=master)](https://travis-ci.org/tndev/node-project-honeypot) [![codecov](https://codecov.io/gh/tndev/node-project-honeypot/branch/master/graph/badge.svg)](https://codecov.io/gh/tndev/node-project-honeypot)
+
+
 This npm module will allow you to query and consume the Project Honeypot API. Query it with an IP, and an Object will be sent back with relevent metadata regarding that IP.
 
 ## Installation
