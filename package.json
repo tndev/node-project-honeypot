@@ -1,0 +1,38 @@
+{
+  "name": "@tndev/project-hoenypot",
+  "version": "0.0.1",
+  "description": "Node.js implementation of the Project Honeypot (Http:BL) API.",
+  "main": "index.js",
+  "keywords": [
+    "honeypot",
+    "spam",
+    "honey",
+    "Http:BL",
+    "ip",
+    "spammer"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/",
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tndev/node-project-honeypot.git"
+  },
+  "author": "Till Niese",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/tndev/node-project-honeypot/issues"
+  },
+  "homepage": "https://github.com/tndev/node-project-honeypot#readme",
+  "devDependencies": {
+    "codecov": "^3.0.4",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "should": "^13.2.3"
+  }
+}
