@@ -11,5 +11,5 @@ cache:
 before_script:
   - npm prune
 script:
-  - npm test
-  - npm test-ci
+  - npm run test
+  - npm run test-ci
