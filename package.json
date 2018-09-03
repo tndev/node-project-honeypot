@@ -1,6 +1,6 @@
 {
   "name": "@tndev/project-honeypot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js implementation of the Project Honeypot (Http:BL) API.",
   "main": "index.js",
   "keywords": [
